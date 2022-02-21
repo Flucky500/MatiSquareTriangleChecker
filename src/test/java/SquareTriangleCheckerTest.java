@@ -69,5 +69,16 @@ public class SquareTriangleCheckerTest {
         //then
         Assert.assertFalse(false);
     }
+    @Test
+    public void shouldReturnFalseWhen333() {
+        //given
+        int a = 3;
+        int b = 3;
+        int c = 3;
+        //when
+        SquareTriangleChecker.squareTriangleChecker(3, 3, 3);
+        //then
+        Assert.assertFalse(false);
+    }
 
 }
